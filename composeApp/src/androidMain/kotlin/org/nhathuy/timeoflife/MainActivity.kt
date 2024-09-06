@@ -1,5 +1,6 @@
 package org.nhathuy.timeoflife
 
+import FocusTimeApp
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -11,13 +12,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            App()
+            FocusTimeApp()
         }
     }
 }
 
 @Preview
 @Composable
-fun AppAndroidPreview() {
-    App()
+fun AppAndroidTest() {
+    FocusTimeApp()
 }
